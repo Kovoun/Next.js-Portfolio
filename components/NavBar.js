@@ -17,9 +17,9 @@ const Navigation = () => {
     <>
       <header id="header-main" className="header">
         <div className=" row">
-          <a href="/" className="logo-wrapper">
+          <Link href="/" className="logo-wrapper">
             <Image className="logo" src="/code-solid.svg" width="40" height="40" />
-          </a>
+          </Link>
           <ul id="header-menu">
             <li className="header-menu-item">
               <Link href="/">Home</Link>
