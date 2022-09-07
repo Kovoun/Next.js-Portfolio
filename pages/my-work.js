@@ -14,7 +14,7 @@ const MyWork = () => {
             <h1>My work</h1>
           </div>
           <section className="my-work-gallery">
-            <Image src="/gallery-1.png" alt="me" width="3840" height="2160" className="gallery-img gallery-img-1" />
+            <Image src="/gallery-1.png" alt="me" width="3840" height="2160" className="gallery-img gallery-img-1"  />
             <Image src="/gallery-2.png" alt="me" width="3840" height="2160" className="gallery-img gallery-img-2" />
             <Image src="/gallery-3.png" alt="me" width="3840" height="2160" className="gallery-img gallery-img-3" />
             <Image src="/gallery-4.png" alt="me" width="3840" height="2160" className="gallery-img gallery-img-4" />

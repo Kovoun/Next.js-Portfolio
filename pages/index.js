@@ -20,7 +20,7 @@ export default function Home() {
             <div data-aos="fade-right" data-aos-duration="1200">
               <h2 className="image-with-text-heading">Tomáš Kovařík</h2>
               <p className="image-with-text-paragraph">
-                Hello, I'm 18 years old Front-end developer and a student at a high school of
+                Hello, Im 18 years old Front-end developer and a student at a high school of
                 information technology. My hobbies include hiking, programming,
                 and exercise. I like to learn and improve my skills. If you want some cooperation, please contact me by clicking the button below.
               </p> 
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className="image-with-text-second-column">
             <div data-aos="fade-left" data-aos-duration="1200">
-              <Image width="1200" height="550" className="image-with-text-second-column" src={me} alt="" />
+              <Image width="1200" height="550" className="image-with-text-second-column" src={me} alt="something" />
             </div>
           </div>
         </section>
@@ -47,7 +47,7 @@ export default function Home() {
             <div className="my-work-columns">
               <div className="my-work-first-column">
                 <div className="my-work-image-wrapper">
-                  <Image width={1200} className="my-work-image" src={developFirst} alt="" />
+                  <Image width={1200} className="my-work-image" src={developFirst} alt="something" />
                 </div>
                 <div className="my-work-container">
                   <h3 className="my-work-heading">
@@ -62,7 +62,7 @@ export default function Home() {
 
               <div className="my-work-second-column">
                 <div className="my-work-image-wrapper">
-                  <Image width={1440} className="my-work-image" src={developSecond} alt="" />
+                  <Image width={1440} className="my-work-image" src={developSecond} alt="something" />
                 </div>
                 <div className="my-work-container">
                   <h3 className="my-work-heading">
@@ -76,7 +76,7 @@ export default function Home() {
 
               <div className="my-work-third-column">
                 <div className="my-work-image-wrapper">
-                  <Image width={1200}  className="my-work-image" src={developThird} alt="" />
+                  <Image width={1200}  className="my-work-image" src={developThird} alt="something" />
                 </div>
                 <div className="my-work-container">
                   <h3 className="my-work-heading">
