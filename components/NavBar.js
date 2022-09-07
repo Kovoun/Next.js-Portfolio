@@ -17,8 +17,10 @@ const Navigation = () => {
     <>
       <header id="header-main" className="header">
         <div className=" row">
-          <Link href="/" className="logo-wrapper">
-            <Image alt="gdgdggwsfs" className="logo" src="/code-solid.svg" width="40" height="40" />
+          <Link href="/">
+            <div className="logo-wrapper">
+              <Image alt="gdgdggwsfs" className="logo" src="/code-solid.svg" width="40" height="40" />
+            </div>
           </Link>
           <ul id="header-menu">
             <li className="header-menu-item">
