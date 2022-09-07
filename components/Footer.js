@@ -15,10 +15,10 @@ const Footer = () => {
             <Link href="mailto:codingkovoun@gmail.com">
               <Image src={email} alt="" />
             </Link>
-            <Link target="_blank" href="https://github.com/Kovoun">
+            <Link href="https://github.com/Kovoun">
               <Image src={github} alt="" />
             </Link>
-            <Link target="_blank" href="https://slack.com/">
+            <Link href="https://slack.com/">
               <Image src={slack} alt="" />
             </Link>
           </div>
