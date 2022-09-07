@@ -15,24 +15,24 @@ const Navigation = () => {
 
   return (
     <>
-      <header id="header-main" class="header">
-        <div class=" row">
-          <a href="/" class="logo-wrapper">
-            <Image class="logo" src="/code-solid.svg" width="40" height="40" />
+      <header id="header-main" className="header">
+        <div className=" row">
+          <a href="/" className="logo-wrapper">
+            <Image className="logo" src="/code-solid.svg" width="40" height="40" />
           </a>
           <ul id="header-menu">
-            <li class="header-menu-item">
+            <li className="header-menu-item">
               <Link href="/">Home</Link>
             </li>
-            <li class="header-menu-item">
+            <li className="header-menu-item">
               <Link href="/my-work">My Work</Link>
             </li>
           </ul>
-          <ul class="header-menu-second">
-            <div id="menu" class="menu-icon" onClick={toggleHeader}>
-              <div class="line line-1"></div>
-              <div class="line line-2"></div>
-              <div class="line line-3"></div>
+          <ul className="header-menu-second">
+            <div id="menu" className="menu-icon" onClick={toggleHeader}>
+              <div className="line line-1"></div>
+              <div className="line line-2"></div>
+              <div className="line line-3"></div>
             </div>
           </ul>
         </div>

@@ -8,9 +8,9 @@ import Image from "next/image"
 const Footer = () => {
   return (
     <>
-      <footer class="footer">
-        <div class="row">
-          <div class="footer-contacts">
+      <footer className="footer">
+        <div className="row">
+          <div className="footer-contacts">
             <a href="mailto:codingkovoun@gmail.com">
               <Image src={email} alt="" />
             </a>
@@ -21,7 +21,7 @@ const Footer = () => {
               <Image src={slack} alt="" />
             </a>
           </div>
-          <p class="footer-paragraph">©Tomáš Kovařík 2022</p>
+          <p className="footer-paragraph">©Tomáš Kovařík 2022</p>
         </div>
       </footer>
     </>
