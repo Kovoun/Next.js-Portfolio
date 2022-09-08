@@ -466,7 +466,8 @@
   }
 
   .image-with-text-second-column {
-    width: 97%;
+    width: 100%;
+    height: 100%;
   }
 }
 

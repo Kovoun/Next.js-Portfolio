@@ -26,7 +26,7 @@ const Navigation = () => {
               <a href="https://kovoun.netlify.app/">Home</a>
             </li>
             <li className="header-menu-item">
-              <a href="https://kovoun.netlify.app//my-work">My Work</a>
+              <a href="https://kovoun.netlify.app/my-work">My Work</a>
             </li>
           </ul>
           <ul className="header-menu-second">
