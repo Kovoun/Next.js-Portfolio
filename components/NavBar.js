@@ -4,12 +4,11 @@ import Image from "next/future/image";
 
 const Navigation = () => {
 
-  const toggleHeader = () => {
+  const toggleHeader = (e) => {
     document.getElementById("menu").classList.toggle("change");
     document.getElementById("header-main").classList.toggle("header-background");
     document.getElementById("header-menu").classList.toggle("show-header-items");
     document.body.classList.toggle("no-scroll");
-
     console.log("clicked");
   }
 
@@ -24,10 +23,10 @@ const Navigation = () => {
           </Link>
           <ul id="header-menu">
             <li className="header-menu-item">
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li className="header-menu-item">
-              <Link href="/my-work">My Work</Link>
+              <a href="/my-work">My Work</a>
             </li>
           </ul>
           <ul className="header-menu-second">
