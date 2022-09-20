@@ -665,6 +665,7 @@
 
 .about-me {
     background-color: #0B0C10;
+    height: 1000px;
     padding-top: 30px;
     padding-bottom: 100px;
     font-family: "Montserrat", sans-serif;
@@ -770,6 +771,7 @@
   background-color: #0B0C10;
   padding-top: 30px;
   padding-bottom: 150px;
+  height: 900px;
   font-family: "Montserrat", sans-serif;
 }
 
