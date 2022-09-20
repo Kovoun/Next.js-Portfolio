@@ -23,13 +23,13 @@ const Navigation = () => {
           </Link>
           <ul id="header-menu">
             <li className="header-menu-item">
-              <a href="/">Home</a>
+              <a href="https://kovoun.netlify.app/">Home</a>
             </li>
             <li className="header-menu-item">
-              <a href="/about-me">About me</a>
+              <a href="https://kovoun.netlify.app//about-me">About me</a>
             </li>
             <li className="header-menu-item">
-              <a href="/skills"> My Skills</a>
+              <a href="https://kovoun.netlify.app//skills"> My Skills</a>
             </li>
           </ul>
           <ul className="header-menu-second">
