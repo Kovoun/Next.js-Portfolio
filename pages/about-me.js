@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-me-columns">
           <div className="about-me-first-column">
             <p className="about-me-paragraph">
-              I'm 18 years old Front-end developer and a student at a high
+              Im 18 years old Front-end developer and a student at a high
               school of information technology. My hobbies include hiking,
               programming, and exercise. I like to learn and improve my skills.
             </p>
