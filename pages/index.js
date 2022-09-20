@@ -1,38 +1,29 @@
 import Head from "next/head";
-import Link from "next/link"
-import me from "../public/me.png"
-import Image from "next/future/image"
-import developFirst from "../public/develop-first.png"
-import developSecond from "../public/develop-second.png"
-import developThird from "../public/develop-third.png"
-
+import Link from "next/link";
+import me from "../public/me.png";
+import Image from "next/future/image";
+import developFirst from "../public/develop-first.png";
+import developSecond from "../public/develop-second.png";
+import developThird from "../public/develop-third.png";
 
 export default function Home() {
-  
   return (
     <>
       <Head>
         <title>Tomáš Kovařík</title>
       </Head>
       <main className="main-content">
-        <section className="image-with-text row">
-          <div className="image-with-text-first-column">
-            <div data-aos="fade-right" data-aos-duration="1200">
-              <h2 className="image-with-text-heading">Tomáš Kovařík</h2>
-              <p className="image-with-text-paragraph">
-                Hello, Im 18 years old Front-end developer and a student at a high school of
-                information technology. My hobbies include hiking, programming,
-                and exercise. I like to learn and improve my skills. If you want some cooperation, please contact me by clicking the button below.
-              </p> 
-              <Link href="mailto:codingkovoun@gmail.com" >
-                <div className="image-with-text-button">Contact me</div>
-              </Link>
-            </div>
-          </div>
-          <div className="image-with-text-second-column">
-            <div data-aos="fade-left" data-aos-duration="1200">
-              <Image width="1200" height="550" className="image-with-text-second-column" src={me} alt="something" />
-            </div>
+        <section className="homepage-intro row">
+          <div data-aos="fade-right" data-aos-duration="1200">
+            <h2 className="homepage-intro-heading">Tomáš Kovařík</h2>
+            <p className="homepage-intro-paragraph">
+              I deal with coding websites to your liking with all the
+              functionality, feel free to contact me by clicking the button
+              below
+            </p>
+            <Link href="mailto:codingkovoun@gmail.com">
+              <div className="homepage-intro-button">Contact me</div>
+            </Link>
           </div>
         </section>
 
@@ -40,51 +31,46 @@ export default function Home() {
 
         <section className="my-work-main">
           <div className="row" data-aos="fade-down" data-aos-duration="1000">
-            <div className="my-work-heading">
+            <div className="card-heading">
               <h2>WHAT I WILL DO</h2>
             </div>
 
-            <div className="my-work-columns">
-              <div className="my-work-first-column">
-                <div className="my-work-image-wrapper">
-                  <Image width={1200} className="my-work-image" src={developFirst} alt="something" />
-                </div>
-                <div className="my-work-container">
-                  <h3 className="my-work-heading">
-                    I will create and edit the content of the page according to
-                    your ideas
-                  </h3>
-                  <p className="my-work-paragraph">
-
+            <div className="card-wrapper">
+              <div className="card card-first">
+                <div className="card-content">
+                  <h2 className="card-title">Web</h2>
+                  <p className="card-body">
+                    I will code and edit the website according to your ideas!
                   </p>
+                  <div className="card-button">
+                    <Link href="mailto:codingkovoun@gmail.com">Contact me</Link>
+                  </div>
                 </div>
               </div>
 
-              <div className="my-work-second-column">
-                <div className="my-work-image-wrapper">
-                  <Image width={1440} className="my-work-image" src={developSecond} alt="something" />
-                </div>
-                <div className="my-work-container">
-                  <h3 className="my-work-heading">
-                    I will actively communicate with you
-                  </h3>
-                  <p className="my-work-paragraph">
-
+              <div className="card card-second">
+                <div className="card-content">
+                  <h2 className="card-title">Communicate</h2>
+                  <p className="card-body">
+                    I will actively communicate and discuss the details with you
+                    to make your site perfect!
                   </p>
+                  <div className="card-button">
+                    <Link href="mailto:codingkovoun@gmail.com">Contact me</Link>
+                  </div>
                 </div>
               </div>
 
-              <div className="my-work-third-column">
-                <div className="my-work-image-wrapper">
-                  <Image width={1200}  className="my-work-image" src={developThird} alt="something" />
-                </div>
-                <div className="my-work-container">
-                  <h3 className="my-work-heading">
-                    I will improve your company name
-                  </h3>
-                  <p className="my-work-paragraph">
-
+              <div className="card card-third">
+                <div className="card-content">
+                  <h2 className="card-title">Optimalization</h2>
+                  <p className="card-body">
+                    I will do all the website optimization for you so that
+                    customers can find you easily!
                   </p>
+                  <div className="card-button">
+                    <Link href="mailto:codingkovoun@gmail.com">Contact me</Link>
+                  </div>
                 </div>
               </div>
             </div>
