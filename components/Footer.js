@@ -18,9 +18,6 @@ const Footer = () => {
             <Link href="https://github.com/Kovoun">
               <Image src={github} alt="fghjfhfh" />
             </Link>
-            <Link href="https://slack.com/">
-              <Image src={slack} alt="fhfhfhf" />
-            </Link>
           </div>
           <p className="footer-paragraph">©Tomáš Kovařík 2022</p>
         </div>

@@ -13,21 +13,21 @@ export default function Home() {
         <title>Tomáš Kovařík</title>
       </Head>
       <main className="main-content">
-        <section className="homepage-intro row">
-          <div data-aos="fade-right" data-aos-duration="1200">
-            <h2 className="homepage-intro-heading">Tomáš Kovařík</h2>
-            <p className="homepage-intro-paragraph">
-              I deal with coding websites to your liking with all the
-              functionality, feel free to contact me by clicking the button
-              below
-            </p>
-            <Link href="mailto:codingkovoun@gmail.com">
-              <div className="homepage-intro-button">Contact me</div>
-            </Link>
-          </div>
-        </section>
-
-        <div className="space-between"></div>
+          <section className="homepage-intro row">
+            <div data-aos="fade-right" data-aos-duration="1200">
+              <h2 className="homepage-intro-heading">Tomáš Kovařík</h2>
+              <p className="homepage-intro-paragraph">
+                I deal with coding websites to your liking with all the
+                functionality, feel free to contact me by clicking the button
+                below
+              </p>
+              <Link href="mailto:codingkovoun@gmail.com">
+                <div className="homepage-intro-button">Contact me</div>
+              </Link>
+            </div>
+          </section>
+          
+          <div className="space-between"></div>
 
         <section className="my-work-main">
           <div className="row" data-aos="fade-down" data-aos-duration="1000">
