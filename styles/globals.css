@@ -176,7 +176,7 @@
   background-color: #0B0C10;
   height: auto;
   font-family: "Montserrat", sans-serif;
-  padding-top: 260px;
+  padding-top: 220px;
   padding-bottom: 80px;
 }
 
@@ -196,6 +196,7 @@
   font-weight: 200;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .homepage-intro-paragraph {
@@ -677,12 +678,13 @@
 
 .about-me-heading h2 {
   font-size: 56px;
-  font-weight: 200;
+  font-weight: 400;
   padding-bottom: 24px;
   color: #66FCF1;
   text-align: center;
   padding-bottom: 64px;
   padding-top: 64px;
+  letter-spacing: 4px;
 }
 
 .about-me-paragraph {
@@ -740,9 +742,9 @@
   }
 
   .about-me-paragraph {
-    font-size: 19px;
+    font-size: 20px;
     letter-spacing: 0.6px;
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
   }
 
@@ -781,12 +783,13 @@
 
 .my-skills-heading h2 {
   font-size: 56px;
-  font-weight: 200;
+  font-weight: 400;
   padding-bottom: 24px;
   color: #66FCF1;
   text-align: center;
   padding-bottom: 64px;
   padding-top: 64px;
+  letter-spacing: 4px;
 }
 
 
