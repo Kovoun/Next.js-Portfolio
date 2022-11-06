@@ -11,6 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Tomáš Kovařík</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="main-content">
           <section className="homepage-intro row">
@@ -38,7 +39,7 @@ export default function Home() {
             <div className="card-wrapper">
               <div className="card card-first">
                 <div className="card-content">
-                  <h2 className="card-title">Web</h2>
+                  <h2 className="card-title">Website</h2>
                   <p className="card-body">
                     I will code and edit the website according to your ideas!
                   </p>

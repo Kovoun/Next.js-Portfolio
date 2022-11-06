@@ -1,7 +1,14 @@
 import Image from "next/future/image";
+import Head from "next/head";
+
 
 const About = () => {
   return (
+    <>
+    <Head>
+      <title>About me</title> 
+      <link rel="icon" href="/favicon.png" />
+    </Head> 
     <section className="about-me">
       <div className="row">
         <div className="about-me-heading">
@@ -10,7 +17,7 @@ const About = () => {
         <div className="about-me-columns">
           <div className="about-me-first-column">
             <p className="about-me-paragraph">
-              Im 18 years old Front-end developer and a student at a high
+              I am 18 years old Front-end developer and a student at a high
               school of information technology. My hobbies include hiking,
               programming, and exercise. I like to learn and improve my skills.
             </p>
@@ -30,6 +37,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

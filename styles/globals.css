@@ -528,9 +528,10 @@
 
 .card-heading h2 {
   font-size: 36px;
-  font-weight: 200;
+  font-weight: 400;
   padding-bottom: 24px;
   color: #66FCF1;
+  letter-spacing: 2px;
 }
 
 .card-wrapper {
@@ -562,7 +563,7 @@
 }
 
 .card-third {
-  background: url('/seo.jpg');
+  background: url('/seo-test.png');
   background-size: cover;
 }
 

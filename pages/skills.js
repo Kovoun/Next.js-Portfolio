@@ -1,7 +1,13 @@
 import Image from "next/future/image";
+import Head from "next/head";
 
 const Skills = () => {
   return (
+    <>
+    <Head>
+      <title>My Skills</title>
+      <link rel="icon" href="/favicon.png" />
+    </Head>
     <section className="my-skills">
       <div className="row">
         <div className="my-skills-heading">
@@ -63,6 +69,7 @@ const Skills = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
