@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import me from "../public/me.png";
 import Image from "next/future/image";
 import developFirst from "../public/develop-first.png";
 import developSecond from "../public/develop-second.png";
