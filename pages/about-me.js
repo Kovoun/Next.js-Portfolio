@@ -28,9 +28,9 @@ const About = () => {
             <div className="about-me-image">
               <Image
                 src={me}
-                width={828}
-                height={1104}
-                quality={100}
+                width="600"
+                height="600"
+                quality={80}
                 alt="about-me"
                 className="about-me-image"
               />
