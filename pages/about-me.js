@@ -1,6 +1,6 @@
 import Image from "next/future/image";
 import Head from "next/head";
-import me from "../public/me.jpeg"
+import me from "../public/me.png"
 
 
 const About = () => {
