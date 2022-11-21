@@ -1,6 +1,5 @@
 import Image from "next/future/image";
 import Head from "next/head";
-import me from "../public/me.png"
 
 
 const About = () => {
@@ -27,7 +26,7 @@ const About = () => {
           <div className="about-me-second-column">
             <div className="about-me-image">
               <Image
-                src={me}
+                src="/me.png"
                 width="640"
                 height="853"
                 alt="about-me"
