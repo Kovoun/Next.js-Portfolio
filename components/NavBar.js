@@ -23,13 +23,13 @@ const Navigation = () => {
           </Link>
           <ul id="header-menu">
             <li className="header-menu-item">
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className="header-menu-item">
-              <a href="/about-me">About me</a>
+              <Link href="/about-me">About me</Link>
             </li>
             <li className="header-menu-item">
-              <a href="/skills"> My Skills</a>
+              <Link href="/skills"> My Skills</Link>
             </li>
           </ul>
           <ul className="header-menu-second">
