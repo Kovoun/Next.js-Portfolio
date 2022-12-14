@@ -9,7 +9,15 @@ const Navigation = () => {
     document.getElementById("header-main").classList.toggle("header-background");
     document.getElementById("header-menu").classList.toggle("show-header-items");
     document.body.classList.toggle("no-scroll");
-    console.log("clicked");
+  }
+
+  const closeMenu = (e) => {
+    setTimeout(() => {
+      document.getElementById("menu").classList.remove("change");
+      document.getElementById("header-main").classList.remove("header-background");
+      document.getElementById("header-menu").classList.remove("show-header-items");
+      document.body.classList.remove("no-scroll");
+    }, 250);
   }
 
   return (
@@ -22,13 +30,13 @@ const Navigation = () => {
             </div>
           </Link>
           <ul id="header-menu">
-            <li className="header-menu-item">
+            <li onClick={closeMenu} className="header-menu-item">
               <Link href="/">Home</Link>
             </li>
-            <li className="header-menu-item">
+            <li onClick={closeMenu} className="header-menu-item">
               <Link href="/about-me">About me</Link>
             </li>
-            <li className="header-menu-item">
+            <li onClick={closeMenu} className="header-menu-item">
               <Link href="/skills"> My Skills</Link>
             </li>
           </ul>
