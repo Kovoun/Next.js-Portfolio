@@ -141,7 +141,7 @@
       width: 100%;
     }
   }
-  
+
   #header-menu li a:hover::after {
     animation: width .7s;
     width: 100%;
@@ -571,9 +571,10 @@
   background: url('/seo-test.png');
   background-size: cover;
 }
-
-.card:hover {
-  transform: scale(1.05);
+@media (min-width: 750px) {
+  .card:hover {
+    transform: scale(1.05);
+  }
 }
 
 .card-content {
