@@ -638,7 +638,7 @@
   cursor: pointer;
   display: inline-block;
   padding: .5em 1.25em;
-  border-radius: .5em;
+  border-radius: 10px;
   outline: 1px solid #66FCF1;
   transition: all .5s!important;
 }
