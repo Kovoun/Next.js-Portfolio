@@ -558,19 +558,19 @@
 }
 
 .card-first {
-  background: url('/web-developer.svg') #fff;
+  background: url('/web-developer.svg') #22ddcf;
   background-size: cover;
   background-position: center;
 }
 
 .card-second {
-  background: url('/communicate.svg') #fff;
+  background: url('/communicate.svg') #22ddcf;
   background-size: cover;
   background-position: center;
 }
 
 .card-third {
-  background: url('/fast-site-loading.svg') #fff;
+  background: url('/fast-site-loading.svg') #22ddcf;
   background-size: cover;
   background-position: center;
 }
