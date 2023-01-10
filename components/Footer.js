@@ -4,7 +4,9 @@ import slack from "../public/slack.svg"
 import Image from "next/image"
 import Link from "next/link";
 
-
+const automaticYear = () => {
+  document.write(new Date().getFullYear())
+}
 
 const Footer = () => {
   return (
@@ -19,7 +21,7 @@ const Footer = () => {
               <Image src={github} alt="fghjfhfh" />
             </Link>
           </div>
-          <p className="footer-paragraph">©Tomáš Kovařík 2022</p>
+          <p className="footer-paragraph">©Tomáš Kovařík {automaticYear()}</p>
         </div>
       </footer>
     </>
